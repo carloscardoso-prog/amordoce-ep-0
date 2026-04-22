@@ -1,0 +1,297 @@
+<script>
+  if(!localStorage['saveData']){
+    window.location.href = "index.html";
+  }
+  let saveData = JSON.parse(localStorage['saveData']);
+
+  console.log(saveData);
+</script>
+<!DOCTYPE html>
+<script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+<html lang="pt-BR" style="left: 0px; top: 0px;" class="cdk-global-scrollblock">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Amor Doce, jogo de namoro e paquera para meninas!</title>
+    <meta name="description" content="Jogo de namoro e paquera! Em Amor Doce, conquiste os seus personagens favoritos e descubra um novo episódio regularmente. Torne-se a sedutora número 1!">
+    <meta name="viewport" content="width=1200, shrink-to-fit=no">
+
+    <!-- Thumbnail -->
+    <meta property="og:image" content="../assets/img/i18n/br/thumbnail/thumbnail.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/main">
+    <meta property="og:title" content="Amor Doce, jogo de namoro e paquera para meninas!">
+    <meta property="og:description" content="Jogo de namoro e paquera! Em Amor Doce, conquiste os seus personagens favoritos e descubra um novo episódio regularmente. Torne-se a sedutora número 1!">
+    <meta property="fb:app_id" content="266005200113809">
+
+    <!-- Favicons -->
+    <link rel="icon" href="../assets/img/favicon.png" type="image/png"> 
+    <link rel="apple-touch-icon" href="../assets/img/apple-favicon-114.png" sizes="114x114" type="image/png">
+    <link rel="apple-touch-icon" href="../assets/img/apple-favicon-72.png" sizes="72x72" type="image/png">
+    <link rel="apple-touch-icon" href="../assets/img/apple-favicon-57.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/img/apple-favicon-114.png" type="image/png">
+
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/app-s1.css" media="all" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="../assets/css/app-s1.css">
+    </noscript>
+  </head>
+  <body class="season-s1 no-overflow">
+    <app-amoursucre>
+      <index class="ad-app-h148">
+        <app-connected-page class="night ad-app-c148 ad-app-h147">
+          <div id="site-wrap" class="ad-app-c147">
+            <div id="site-header" class="ad-app-c147">
+              <div id="site-logo" class="ad-app-c147">
+                <div class="halo ad-app-c147"></div>
+                <div class="logo-container ad-app-c147">
+                  <a class="ad-app-c147" href="home.html">
+                    <img id="connected-page-logo-as" class="logo-as ad-app-c147" src="../assets/img/as-s1.png" alt="Amor Doce">
+                  </a>
+                </div>
+              </div>
+              <panel-connected class="ad-app-c147 ad-app-h131">
+                <div class="panel-connected ad-app-c131">
+                  <div class="line-container ad-app-c131">
+                    <paper-clip-title class="blue ad-app-c131 ad-app-h126">
+                      <div class="title-container ad-app-c126">
+                        <div class="trombone ad-app-c126"></div>
+                        <a class="ad-app-c131 sucrette-name" href="profile.html"><script>document.write(saveData.sucretteName);</script></a>
+                      </div>
+                    </paper-clip-title>
+                    <mobile-notification class="ad-app-c131 ad-app-h127">
+                      <a class="ad-app-c127">
+                        <img src="../assets/img/mobile-icon-off.png" class="ad-app-c127">
+                      </a>
+                    </mobile-notification>
+                  </div>
+                  <div class="line-container ad-app-c131">
+                    <season-selector class="ad-app-c131 ad-app-h130">
+                      <season-selector-button class="high-school-life s1 current-season ad-app-c130 ad-app-h129">
+                        <div class="icon-container ad-app-c129">
+                          <div class="s1-book-icon icon s1 ad-app-c129"></div>
+                          <div class="s1-refresh-icon switch ad-app-c129">S</div>
+                        </div>
+                        <div class="text visible ad-app-c129">
+                          <div class="content ad-app-c129">
+                            <div class="current ad-app-c129">
+                              <div class="s1-season-text season ad-app-c129">
+                                High School Life
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </season-selector-button>
+                    </season-selector>
+                  </div>
+                  <div class="line-container currencies ad-app-c131">
+                    <div class="currency ad-app-c131">
+                      <a fragment="pa" class="ad-app-c131">
+                        <div class="values ad-app-c131">
+                          <span id="ap-value" class="ad-app-c131">∞</span>
+                          <div class="currencie-logo ad-app-c131">
+                            <img height="37px" width="38px" src="../assets/img/ap.png" alt="PA" class="ad-app-c131">
+                          </div>
+                        </div>
+                      </a>
+                      <div class="ap notification ad-app-c131">
+                        <div class="notification-content ad-app-c131"> 0 
+                          <img src="../assets/img/ap.png" alt="PA" class="ad-app-c131">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="currency ad-app-c131">
+                      <a fragment="golds" class="ad-app-c131">
+                        <div class="values ad-app-c131">
+                          <span id="dollars-value" class="ad-app-c131">∞</span>
+                          <div class="currencie-logo ad-app-c131">
+                            <img src="../assets/img/golds.png" height="37" width="38" class="ad-app-c131">
+                          </div>
+                        </div>
+                      </a>
+                      <div class="dollars notification ad-app-c131">
+                        <div class="notification-content ad-app-c131"> 0
+                          <img src="../assets/img/golds.png" class="ad-app-c131">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="panel-menu" class="ad-app-c131">
+                    <a class="ad-app-c131" href="profile.html">
+                      <div class="link ad-app-c131">
+                        <i18n key="PROFILE" domain="index/panel-connected/panel-connected.component" class="ad-app-c131">
+                          <span>Perfil</span>
+                        </i18n>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </panel-connected>
+            </div>
+            <div id="site-menu" class="ad-app-c147">
+              <navigation-menu class="ad-app-c147 ad-app-h134">
+                <a class="home ad-app-c134" href="home.html">
+                  <div class="icon-season ad-app-c134"></div>
+                </a>
+                <a class="ad-app-c134">
+                  <span class="icon-menu ad-app-c134">a</span>
+                  <div class="text-menu ad-app-c134">
+                    <i18n key="MY_FLAT" domain="index/navigation-menu/navigation-menu.component" class="ad-app-c134">
+                      <span>Meu apê</span>
+                    </i18n>
+                  </div>
+                </a>
+                <a class="ad-app-c134">
+                  <span class="icon-menu ad-app-c134">c</span>
+                  <div class="text-menu ad-app-c134">
+                    <i18n key="THE_TOWN" domain="index/navigation-menu/navigation-menu.component" class="ad-app-c134">
+                      <span>Cidade</span>
+                    </i18n>
+                  </div>
+                </a>
+                <a class="ad-app-c134" href="my-episodes.html">
+                  <span class="icon-menu ad-app-c134">e</span>
+                  <div class="text-menu ad-app-c134">
+                    <i18n key="MY_EPISODES" domain="index/navigation-menu/navigation-menu.component" class="ad-app-c134">
+                      <span>Meus episódios</span>
+                    </i18n>
+                  </div>
+                </a>
+                <a class="ad-app-c134">
+                  <span class="icon-menu ad-app-c134">o</span>
+                  <div class="text-menu ad-app-c134">
+                    <i18n key="MY_FRIENDS" domain="index/navigation-menu/navigation-menu.component" class="ad-app-c134">
+                      <span>Personagens</span>
+                    </i18n>
+                  </div>
+                </a>
+              </navigation-menu>
+            </div>
+            
+            <div class="ad-sheet-c147" id="pages">
+                <router-outlet class="ad-sheet-c147"></router-outlet>
+                <my-episodes class="ad-sheet-h523">
+                    <page-sheet-container class="ad-sheet-c523 ad-sheet-h181">
+                        <h2 class="page-sheet-title color-primary">Meus episódios</h2>
+                        <div class="page-sheet-content defaultBackground">
+
+                            <spin-off-navigation class="ad-sheet-c523 ad-sheet-h519">
+                                <div class="ad-sheet-c519 spin-off-menu">
+                                    <a class="ad-sheet-c519 tab active" href="my-episodes.html">
+                                        <i18n class="ad-sheet-c519" key="MAIN_STORY" domain="spin-off/component/spin-off-navigation/spin-off-navigation.component"><span>História principal</span></i18n>
+                                    </a>
+                                    <!-- <a class="ad-sheet-c519 tab spin-off-tab" href="/main/spin-off">
+                                        <i18n class="ad-sheet-c519" key="SPIN_OFF" domain="spin-off/component/spin-off-navigation/spin-off-navigation.component"><span>Spin-Off</span></i18n>
+                                    </a> -->
+                                </div>
+                            </spin-off-navigation>
+
+                            <!-- <buy-replay class="ad-sheet-c523 ad-sheet-h186">
+                                <replay-counter class="ad-sheet-c186 ad-sheet-h185">
+                                    <img class="ad-sheet-c185 replay-icon" src="image/replay/replay-icon.png" alt="replays">
+                                    <span class="ad-sheet-c185 number">5</span>
+                                </replay-counter>
+                                <span class="ad-sheet-c186">
+                                    <button class="ad-sheet-c186 click-for-buying" type="button">
+                                        <i18n class="ad-sheet-c186" domain="shared/component/replay/buy-replay/buy-replay.component" key="BUY_REPLAY"><span>Obter replays</span></i18n>
+                                    </button>
+                                </span>
+                            </buy-replay> -->
+
+                            <section class="ad-sheet-c523" id="current-episode">
+                                <h3 class="ad-sheet-c523">
+                                    <paper-clip-title class="ad-sheet-c523 ad-sheet-h126">
+                                        <div class="ad-sheet-c126 title-container">
+                                            <div class="ad-sheet-c126 trombone"></div>
+                                            <i18n class="ad-sheet-c523" key="CURRENT_EPISODE" domain="my-episodes/my-episodes.component"><span>Resumo do episódio em andamento</span></i18n>
+                                        </div>
+                                    </paper-clip-title>
+                                </h3>
+                                <div class="ad-sheet-c523">
+                                    <div class="ad-sheet-c523">
+                                        <current-episode class="ad-sheet-c523 ad-sheet-h521">
+                                            <div class="ad-sheet-c521 perforated-sheet"></div>
+                                            <div class="ad-sheet-c521 body">
+                                                <div class="ad-sheet-c521 inner-body top-body">
+                                                    <episode-cover class="ad-sheet-c521" width="460">
+                                                        <div class="ad-sheet-c172 inner-episode-cover">
+                                                            <div class="ad-sheet-c172 spiral"></div>
+                                                            <episode-thumbnail class="ad-sheet-c172" width="460" height="323">
+                                                                <img class="ad-sheet-c171" style="display: block; width: 460px; height: 323px;" alt="Episódio 0 - Introdução" title="" src="https://assets3.amordoce.com/episode/web/hd/0-e6d8c5ea1833715c~1526634037.jpg">
+                                                                <div class="ad-sheet-c171 rotated-white"></div>
+                                                            </episode-thumbnail>
+                                                        </div>
+                                                    </episode-cover>
+                                                    <div class="ad-sheet-c521 informations">
+                                                        <h3 class="ad-sheet-c521 episode-title">
+                                                            <span class="ad-sheet-c521">
+                                                                <i18n class="ad-sheet-c521" key="EPISODE" domain="my-episodes/component/current-episode/current-episode.component"><span>Episódio 0</span></i18n>
+                                                                <span class="ad-sheet-c521 small"> - Introdução</span>
+                                                            </span>
+                                                        </h3>
+                                                        <p class="ad-sheet-c521 description">Tutorial do jogo e apresentação das funções</p>
+                                                    </div>
+                                                </div>
+                                                <div class="ad-sheet-c521 inner-body bottom-body">
+                                                    <div class="ad-sheet-c521">
+                                                        <a class="ad-sheet-c521 button continue-btn" href="story.html">
+                                                            <i18n class="ad-sheet-c521" key="CONTINUE" domain="my-episodes/component/current-episode/current-episode.component"><span>Continuar o episódio</span></i18n>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </current-episode>
+                                    </div>
+                                </div>
+                            </section>
+
+                        </div>
+                    </page-sheet-container>
+                </my-episodes>
+            </div>
+
+            <div id="site-content" class="ad-app-c147">
+              <div id="sucrette" class="ad-app-c147">
+                <player-avatar id="connected-page-sucrette" class="ad-app-c147 ad-app-h145">
+                  <avatar class="visible ad-app-c145 ad-app-h144">
+                    <stage style="width: 410px; height: 700px;" class="rendered ad-app-c144 ad-app-h143">
+                      <canvas id="avatar-canvas-sucrette" width="410" height="700"></canvas>
+                      <input id="avatar-canvas-sucrette-hidden-input" type="hidden" data-type="canva-body" value=''>
+                      <script>$('#avatar-canvas-sucrette-hidden-input').val(JSON.stringify(saveData.avatar));</script>
+                    </stage>
+                  </avatar>
+                </player-avatar>
+              </div>
+
+              <footer-component class="ad-app-c147 ad-app-h121">
+                <section class="ad-app-c121">
+                  <span class="ad-app-c121">2026 | </span>
+                  <i18n key="FOOTER_INTRO" domain="index/footer/footer.component" class="ad-app-c121">
+                    <span>AMOR DOCE</span>
+                    <span>| Recriação feita por FlatCategory (TODOS OS DIREITOS RESERVADOS A BEEMOOV) </span>
+                  </i18n>
+                </section>
+                <section class="ad-app-c121">
+                  <a href="https://www.amordoce.com/s1/credits" class="ad-app-c121">
+                    <i18n key="CREDITS" domain="index/footer/footer.component" class="ad-app-c121">
+                      <span>Créditos</span>
+                    </i18n>
+                  </a>
+                </section>
+                <section class="ad-app-c121">
+                  <i18n key="FOOTER_OUTRO" domain="index/footer/footer.component" class="ad-app-c121">
+                    <span>Um jogo <a href="https://beemoov.com/" rel="noopener" target="_blank"><b>Beemoov</b></a></span>
+                  </i18n>
+                </section>
+              </footer-component>
+            </div>
+          </div>
+        </app-connected-page>
+      </index>
+    </app-amoursucre>
+  </body>
+
+  <script>window.__ASSET_ROOT__="../assets";</script>
+  <script src="../assets/js/s1-app.js"></script>
+</html>

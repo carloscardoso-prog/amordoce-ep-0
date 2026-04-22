@@ -1,0 +1,381 @@
+<script>
+  if(!localStorage['saveData']){
+    window.location.href = "index.html";
+  }
+  let saveData = JSON.parse(localStorage['saveData']);
+
+  console.log(saveData);
+</script>
+<!DOCTYPE html>
+<script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+<html lang="pt-BR" style="left: 0px; top: 0px;" class="cdk-global-scrollblock">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Amor Doce, jogo de namoro e paquera para meninas!</title>
+    <meta name="description" content="Jogo de namoro e paquera! Em Amor Doce, conquiste os seus personagens favoritos e descubra um novo episódio regularmente. Torne-se a sedutora número 1!">
+    <meta name="viewport" content="width=1200, shrink-to-fit=no">
+
+    <!-- Thumbnail -->
+    <meta property="og:image" content="../assets/img/i18n/br/thumbnail/thumbnail.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/main">
+    <meta property="og:title" content="Amor Doce, jogo de namoro e paquera para meninas!">
+    <meta property="og:description" content="Jogo de namoro e paquera! Em Amor Doce, conquiste os seus personagens favoritos e descubra um novo episódio regularmente. Torne-se a sedutora número 1!">
+    <meta property="fb:app_id" content="266005200113809">
+
+    <!-- Favicons -->
+    <link rel="icon" href="../assets/img/favicon.png" type="image/png"> 
+    <link rel="apple-touch-icon" href="../assets/img/apple-favicon-114.png" sizes="114x114" type="image/png">
+    <link rel="apple-touch-icon" href="../assets/img/apple-favicon-72.png" sizes="72x72" type="image/png">
+    <link rel="apple-touch-icon" href="../assets/img/apple-favicon-57.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/img/apple-favicon-114.png" type="image/png">
+
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/app-s1.css" media="all" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="../assets/css/app-s1.css">
+    </noscript>
+  </head>
+  <body class="season-s1 no-overflow">
+    <app-amoursucre>
+      <index class="ad-app-h148">
+        <app-connected-page class="night ad-app-c148 ad-app-h147">
+          <div id="site-wrap" class="ad-app-c147">
+            <div id="site-header" class="ad-app-c147">
+              <div id="site-logo" class="ad-app-c147">
+                <div class="halo ad-app-c147"></div>
+                <div class="logo-container ad-app-c147">
+                  <a class="ad-app-c147" href="home.html">
+                    <img id="connected-page-logo-as" class="logo-as ad-app-c147" src="../assets/img/as-s1.png" alt="Amor Doce">
+                  </a>
+                </div>
+              </div>
+              <panel-connected class="ad-app-c147 ad-app-h131">
+                <div class="panel-connected ad-app-c131">
+                  <div class="line-container ad-app-c131">
+                    <paper-clip-title class="blue ad-app-c131 ad-app-h126">
+                      <div class="title-container ad-app-c126">
+                        <div class="trombone ad-app-c126"></div>
+                        <a class="ad-app-c131 sucrette-name" href="profile.html"><script>document.write(saveData.sucretteName);</script></a>
+                      </div>
+                    </paper-clip-title>
+                    <mobile-notification class="ad-app-c131 ad-app-h127">
+                      <a class="ad-app-c127">
+                        <img src="../assets/img/mobile-icon-off.png" class="ad-app-c127">
+                      </a>
+                    </mobile-notification>
+                  </div>
+                  <div class="line-container ad-app-c131">
+                    <season-selector class="ad-app-c131 ad-app-h130">
+                      <season-selector-button class="high-school-life s1 current-season ad-app-c130 ad-app-h129">
+                        <div class="icon-container ad-app-c129">
+                          <div class="s1-book-icon icon s1 ad-app-c129"></div>
+                          <div class="s1-refresh-icon switch ad-app-c129">S</div>
+                        </div>
+                        <div class="text visible ad-app-c129">
+                          <div class="content ad-app-c129">
+                            <div class="current ad-app-c129">
+                              <div class="s1-season-text season ad-app-c129">
+                                High School Life
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </season-selector-button>
+                    </season-selector>
+                  </div>
+                  <div class="line-container currencies ad-app-c131">
+                    <div class="currency ad-app-c131">
+                      <a fragment="pa" class="ad-app-c131">
+                        <div class="values ad-app-c131">
+                          <span id="ap-value" class="ad-app-c131">∞</span>
+                          <div class="currencie-logo ad-app-c131">
+                            <img height="37px" width="38px" src="../assets/img/ap.png" alt="PA" class="ad-app-c131">
+                          </div>
+                        </div>
+                      </a>
+                      <div class="ap notification ad-app-c131">
+                        <div class="notification-content ad-app-c131"> 0 
+                          <img src="../assets/img/ap.png" alt="PA" class="ad-app-c131">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="currency ad-app-c131">
+                      <a fragment="golds" class="ad-app-c131">
+                        <div class="values ad-app-c131">
+                          <span id="dollars-value" class="ad-app-c131">∞</span>
+                          <div class="currencie-logo ad-app-c131">
+                            <img src="../assets/img/golds.png" height="37" width="38" class="ad-app-c131">
+                          </div>
+                        </div>
+                      </a>
+                      <div class="dollars notification ad-app-c131">
+                        <div class="notification-content ad-app-c131"> 0
+                          <img src="../assets/img/golds.png" class="ad-app-c131">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="panel-menu" class="ad-app-c131">
+                    <a class="ad-app-c131" href="profile.html">
+                      <div class="link ad-app-c131">
+                        <i18n key="PROFILE" domain="index/panel-connected/panel-connected.component" class="ad-app-c131">
+                          <span>Perfil</span>
+                        </i18n>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </panel-connected>
+            </div>
+            <div id="site-menu" class="ad-app-c147">
+              <navigation-menu class="ad-app-c147 ad-app-h134">
+                <a class="home ad-app-c134" href="home.html">
+                  <div class="icon-season ad-app-c134"></div>
+                </a>
+                <a class="ad-app-c134">
+                  <span class="icon-menu ad-app-c134">a</span>
+                  <div class="text-menu ad-app-c134">
+                    <i18n key="MY_FLAT" domain="index/navigation-menu/navigation-menu.component" class="ad-app-c134">
+                      <span>Meu apê</span>
+                    </i18n>
+                  </div>
+                </a>
+                <a class="ad-app-c134">
+                  <span class="icon-menu ad-app-c134">c</span>
+                  <div class="text-menu ad-app-c134">
+                    <i18n key="THE_TOWN" domain="index/navigation-menu/navigation-menu.component" class="ad-app-c134">
+                      <span>Cidade</span>
+                    </i18n>
+                  </div>
+                </a>
+                <a class="ad-app-c134" href="my-episodes.html">
+                  <span class="icon-menu ad-app-c134">e</span>
+                  <div class="text-menu ad-app-c134">
+                    <i18n key="MY_EPISODES" domain="index/navigation-menu/navigation-menu.component" class="ad-app-c134">
+                      <span>Meus episódios</span>
+                    </i18n>
+                  </div>
+                </a>
+                <a class="ad-app-c134">
+                  <span class="icon-menu ad-app-c134">o</span>
+                  <div class="text-menu ad-app-c134">
+                    <i18n key="MY_FRIENDS" domain="index/navigation-menu/navigation-menu.component" class="ad-app-c134">
+                      <span>Personagens</span>
+                    </i18n>
+                  </div>
+                </a>
+              </navigation-menu>
+            </div>
+            
+            <div class="pages">
+              <router-outlet class="pages-router-outlet"></router-outlet>
+              <profile class="">
+                <page-sheet-container class="">
+                  <h2 class="page-sheet-title color-primary">Perfil</h2>
+                  <div class="page-sheet-content defaultBackground">
+                    <div class="container">
+                      <div class="administration"></div>
+                      <div class="left">
+                        <profile-avatar class="">
+                          <div class="profile-avatar-container">
+                            <player-avatar class="">
+                              <avatar class="visible">
+                                <stage style="width: 262px!important; height: 473px!important; transform: scaleX(-1);" class="rendered">
+                                  <canvas id="avatar-canvas-profile" width="262" height="473"></canvas>
+                                  <input id="avatar-canvas-profile-hidden-input" type="hidden" data-type="canva-body" value=''>
+                                  <script>$('#avatar-canvas-profile-hidden-input').val(JSON.stringify(saveData.avatar));</script>
+                                </stage>
+                              </avatar>
+                            </player-avatar>
+                            <paper-clip-title class="blue">
+                              <div class="title-container">
+                                <div class="trombone"></div>
+                                 <script>document.write(saveData.sucretteName);</script> 
+                                 &nbsp; 
+                              </div>
+                            </paper-clip-title>
+                            <div class="astro" title="Capricórnio"> C </div>
+                          </div>
+                        </profile-avatar>
+                      </div>
+                      <div class="right">
+                        <div class="tabs menu">
+                          <a class="tab active" href="profile.html">
+                            <i18n key="MY_PROFIL" domain="profile/profile.component"><span>Meu perfil</span></i18n>
+                          </a>
+                        </div>
+                        <div class="">
+                          <router-outlet class=""></router-outlet>
+                          <profile-view class="">
+                            <div class="">
+                              <div class="cards">
+                                <profile-cards class="">
+                                  <app-profile-card profile-card="" class="profile-card s1 member position-0 selected" id="s1">
+                                    <div class="header s1">
+                                      <div class="school-name">
+                                        Escola Sweet Amoris
+                                      </div>
+                                      Carteira de estudante
+                                    </div>
+                                    <div class="group"></div>
+                                    <div class="photo s1">
+                                      <player-avatar class="">
+                                        <avatar class="visible">
+                                          <stage style="width: 160px!important; height: 160px!important;" class="rendered">
+                                            <canvas id="avatar-canvas-profile-picture" style="transform: scaleX(-1)!important; width: 160px!important; height: 160px!important;"></canvas>
+                                            <input id="avatar-canvas-profile-picture-hidden-input" type="hidden" data-type="canva-face" value=''>
+                                            <script>$('#avatar-canvas-profile-picture-hidden-input').val(JSON.stringify(saveData.avatar));</script>
+                                          </stage>
+                                        </avatar>
+                                      </player-avatar>
+                                    </div>
+                                    <div class="data">
+                                      <div class="card-line">
+                                        <div class="label">
+                                          <i18n key="PROFILE_NAME" domain="profile/component/profile-cards/profile-cards.component"><span>Nome:</span></i18n>
+                                        </div>
+                                        <div class="value player-name"><script>document.write(saveData.sucretteName);</script></div>
+                                      </div>
+                                      <div class="card-line">
+                                        <section class="">
+                                          <div class="">
+                                            <br><br>
+                                          </div>
+                                          <div class="">
+                                            <br><br>          
+                                          </div>
+                                        </section>
+                                      </div>
+                                      <div class="full-card-line">
+                                        <div class="label">
+                                          <i18n key="PROFILE_PICTURES_NB" domain="profile/component/profile-cards/profile-cards.component"><span>Total de imagens:</span></i18n>
+                                        </div>
+                                        <div class="value">0</div>
+                                      </div>
+                                      <div class="full-card-line">
+                                        <div class="label">
+                                          <i18n key="PROFILE_BEST_LOM" domain="profile/component/profile-cards/profile-cards.component"><span>Melhor loveô:</span></i18n>
+                                        </div>
+                                        <div class="value">
+                                          <i18n key="NO_LOM" domain="profile/component/profile-cards/profile-cards.component"><span>Nenhum</span></i18n>
+                                        </div>
+                                      </div>
+                                      <div class="full-card-line">
+                                        <div class="label">
+                                          <i18n key="PROFILE_REGISTRATION_DATE" domain="profile/component/profile-cards/profile-cards.component"><span>Data de chegada:</span></i18n>
+                                        </div>
+                                        <div class="value"><script>document.write(new Date(saveData.savedAt).toLocaleDateString('pt-BR'));</script></div>
+                                      </div>
+                                      <div class="full-card-line">
+                                        <div class="label">
+                                          <i18n key="PROFILE_ACTIVE_DAYS" domain="profile/component/profile-cards/profile-cards.component"><span>Total de dias no jogo:</span></i18n>
+                                        </div>
+                                        <div class="value"><script>document.write(Math.floor((new Date().getTime() - new Date(saveData.savedAt).getTime()) / (1000 * 60 * 60 * 24)));</script></div>
+                                      </div>
+                                    </div>
+                                  </app-profile-card>
+                                </profile-cards>
+                              </div>
+                            </div>
+                          </profile-view>
+                        </div>
+                        <my-account class="my-account">
+                          <div class="title">
+                            <i18n key="INFORMATIONS" domain="profile/component/my-account/my-account.component">
+                              <span>Alterar minhas informações: </span>
+                            </i18n>
+                          </div>
+                          <change-informations class="change-informations">
+                            <form id="change-informations-form" novalidate="" method="post" class="">
+                              <div class="infos">
+                                <div class="infos-left">
+                                  <table>
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                          <i18n key="FIRSTNAME" domain="profile/component/my-account/change-informations/change-informations.component">
+                                            <span>Nome da docete:</span>
+                                          </i18n>
+                                        </td>
+                                        <td>
+                                          <input id="profile-sucrette-name-input" type="text" name="firstname" title="Nome" class="" data-save-key="sucretteName">
+                                          <script>$('#profile-sucrette-name-input').val(saveData.sucretteName || '');</script>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <div class="validation">
+                                  <button id="profile-save-confirm-button" type="submit" class="button-primary" disabled="">
+                                    <i18n key="SAVE" domain="profile/component/my-account/change-informations/change-informations.component">
+                                      <span>Confirmar</span>
+                                    </i18n>
+                                  </button>
+                                  <button id="profile-download-save-button" type="button" class="button-primary validated">
+                                    <i18n key="SAVE" domain="profile/component/my-account/change-informations/change-informations.component">
+                                      <span>Baixar Save</span>
+                                    </i18n>
+                                  </button>
+                                  <button id="profile-delete-button" type="button" class="button-primary validated">
+                                    <i18n key="DELETE" domain="profile/component/my-account/change-informations/change-informations.component">
+                                      <span>Limpar Save</span>
+                                    </i18n>
+                                  </button>
+                                </div>
+                              </div>
+                            </form>
+                          </change-informations>
+                        </my-account>
+                      </div>
+                    </div>
+                  </div>
+                </page-sheet-container>
+              </profile>
+            </div>
+
+            <div id="site-content" class="ad-app-c147">
+              <div id="sucrette" class="ad-app-c147">
+                <player-avatar id="connected-page-sucrette" class="ad-app-c147 ad-app-h145">
+                  <avatar class="visible ad-app-c145 ad-app-h144">
+                    <stage style="width: 410px; height: 700px;" class="rendered ad-app-c144 ad-app-h143">
+                      <canvas id="avatar-canvas-sucrette" width="410" height="700"></canvas>
+                      <input id="avatar-canvas-sucrette-hidden-input" type="hidden" data-type="canva-body" value=''>
+                      <script>$('#avatar-canvas-sucrette-hidden-input').val(JSON.stringify(saveData.avatar));</script>
+                    </stage>
+                  </avatar>
+                </player-avatar>
+              </div>
+
+              <footer-component class="ad-app-c147 ad-app-h121">
+                <section class="ad-app-c121">
+                  <span class="ad-app-c121">2026 | </span>
+                  <i18n key="FOOTER_INTRO" domain="index/footer/footer.component" class="ad-app-c121">
+                    <span>AMOR DOCE</span>
+                    <span>| Recriação feita por FlatCategory (TODOS OS DIREITOS RESERVADOS A BEEMOOV) </span>
+                  </i18n>
+                </section>
+                <section class="ad-app-c121">
+                  <a href="https://www.amordoce.com/s1/credits" class="ad-app-c121">
+                    <i18n key="CREDITS" domain="index/footer/footer.component" class="ad-app-c121">
+                      <span>Créditos</span>
+                    </i18n>
+                  </a>
+                </section>
+                <section class="ad-app-c121">
+                  <i18n key="FOOTER_OUTRO" domain="index/footer/footer.component" class="ad-app-c121">
+                    <span>Um jogo <a href="https://beemoov.com/" rel="noopener" target="_blank"><b>Beemoov</b></a></span>
+                  </i18n>
+                </section>
+              </footer-component>
+            </div>
+          </div>
+        </app-connected-page>
+      </index>
+    </app-amoursucre>
+  </body>
+
+  <script>window.__ASSET_ROOT__="../assets";</script>
+  <script src="../assets/js/s1-app.js"></script>
+</html>
